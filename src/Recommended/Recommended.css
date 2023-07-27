@@ -1,0 +1,35 @@
+.recommended{
+    color: #EEEEEE;
+}
+.recommended-flex {
+    display: flex;
+    margin-left: 20rem;
+}
+
+.recommended-title {
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.recommended-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.recommended-flex button {
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #EEEEEE;
+}
+
+.recommended-flex button:hover {
+    background-color: #4E4FEB;
+    color: #000000;
+}
